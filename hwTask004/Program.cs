@@ -9,8 +9,7 @@ while (count <= number)
 {
     if (count % 2 == 0)
     {
-       int evenNumber = count;
-       Console.WriteLine(evenNumber);
+        Console.WriteLine(count);
     }
 count++;
 }
