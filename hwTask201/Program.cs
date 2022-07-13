@@ -4,7 +4,7 @@
 // 782 -> 8
 // 918 -> 1
 
-/*
+
 Console.Write("Введите трёхзначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 if (number > 99 && number < 1000)
@@ -24,10 +24,10 @@ else
 {
     Console.WriteLine("Не лги себе");
 }
-*/
+
 
 // Второй вариант решения
-
+/*
 Console.Write("Введите трёхзначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 if (number > 99 && number < 1000)
@@ -44,3 +44,4 @@ else
 {
     Console.WriteLine("Не лги себе");
 }
+*/
