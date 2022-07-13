@@ -11,11 +11,11 @@ if( number > 99 && number < 1000)
 {
     int x1 = number % 100;
     x1 /= 10;
-    Console.WriteLine(x1);
+    Console.WriteLine("Вторая цифра: " + x1);
 }
 else
 {
-    Console.WriteLine("Не обманывай меня!");
+    Console.WriteLine("Не лги себе");
 }
 
 // Второй вариант решения
