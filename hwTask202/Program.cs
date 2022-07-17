@@ -4,7 +4,7 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-
+/*
 Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 if (number > 99)
@@ -21,3 +21,12 @@ else
 {
     Console.WriteLine("Третьей цифры нет");
 }
+*/
+Console.Write("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine()); //32679
+if (number > 99 || number < -99)
+{
+    while (number > 999 || number < -999) number /= 10;
+Console.WriteLine(number %= 10);
+}
+else {Console.WriteLine("Такого нет");}
