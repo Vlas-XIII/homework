@@ -7,7 +7,6 @@
 
 // Формула: l = √ (x 2 - x 1)^2 + (y 2 - y 1)^2 + (z 2 - z 1)^2
 
-
 Console.Write($"Введите координату A (x,y,z): ");
 int x1 = Convert.ToInt32(Console.ReadLine());
 int y1 = Convert.ToInt32(Console.ReadLine());
